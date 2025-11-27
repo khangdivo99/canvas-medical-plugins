@@ -13,7 +13,7 @@ dev = [
   "pytest-django>=4.11,<5",
   "pytest-freezegun>=0.4.2",
   "pytest-mock",
-  "pytest>=8.4,<9",
+  "pytest>=8.4,<10",
   "python-semantic-release",
   "requests-mock",
   "ruff",
