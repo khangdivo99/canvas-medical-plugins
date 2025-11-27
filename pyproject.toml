@@ -46,7 +46,7 @@ dependencies = [
   "python-dotenv>=1.0.1,<2",
   "python-logstash-async>=4.0.2",
   "rapidfuzz>=3.10.1,<4",
-  "redis>=5.0.4,<6",
+  "redis>=5.0.4,<8",
   "requests",
   "restrictedpython>=8.0",
   "sentry-sdk>=2.33.2",
