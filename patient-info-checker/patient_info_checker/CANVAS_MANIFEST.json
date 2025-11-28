@@ -1,0 +1,39 @@
+{
+    "sdk_version": "0.1.4",
+    "plugin_version": "0.1.0",
+    "name": "patient_info_checker",
+    "description": "Automatically creates tasks when critical patient information (phone, email, insurance) is missing",
+    "components": {
+        "protocols": [
+            {
+                "class": "patient_info_checker.protocols.my_protocol:PatientInfoChecker",
+                "description": "Checks patient information completeness and creates tasks for missing data",
+                "data_access": {
+                    "event": "read",
+                    "read": [
+                        "patients",
+                        "coverages"
+                    ],
+                    "write": [
+                        "tasks"
+                    ]
+                },
+                "meta": {
+                    "RESPONDS_TO": [
+                        "PATIENT_CREATED"
+                    ]
+                }
+            }
+        ],
+        "commands": [],
+        "content": [],
+        "effects": [],
+        "views": []
+    },
+    "secrets": [],
+    "tags": {},
+    "references": [],
+    "license": "UNLICENSED",
+    "diagram": false,
+    "readme": "./README.md"
+}

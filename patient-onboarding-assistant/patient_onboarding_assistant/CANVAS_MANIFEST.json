@@ -1,0 +1,49 @@
+{
+    "sdk_version": "0.1.4",
+    "plugin_version": "0.2.0",
+    "name": "patient_onboarding_assistant",
+    "description": "Advanced patient care coordination plugin that analyzes clinical data across multiple FHIR resources and creates intelligent care coordination tasks",
+    "components": {
+        "protocols": [
+            {
+                "class": "patient_onboarding_assistant.protocols.my_protocol:PatientCareCoordinator",
+                "description": "Analyzes patient clinical history (conditions, medications, labs, appointments, encounters) and creates care coordination tasks based on identified gaps",
+                "data_access": {
+                    "event": "read",
+                    "read": [
+                        "patients",
+                        "conditions",
+                        "medications",
+                        "lab_orders",
+                        "lab_reports",
+                        "appointments",
+                        "encounters",
+                        "tasks",
+                        "task_labels"
+                    ],
+                    "write": [
+                        "tasks",
+                        "patient_metadata"
+                    ]
+                },
+                "meta": {
+                    "RESPONDS_TO": [
+                        "PATIENT_CREATED",
+                        "PATIENT_UPDATED"
+                    ]
+                }
+            }
+        ],
+        "commands": [],
+        "content": [],
+        "effects": [],
+        "views": []
+    },
+    "secrets": [],
+    "tags": {},
+    "references": [],
+    "license": "UNLICENSED",
+    "diagram": false,
+    "readme": "./README.md"
+}
+

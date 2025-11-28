@@ -1,0 +1,31 @@
+{
+    "sdk_version": "0.1.4",
+    "plugin_version": "0.0.2",
+    "name": "test_plugin",
+    "description": "Test plugin that responds to PATIENT_CREATED events and accesses patient FHIR data",
+    "components": {
+        "protocols": [
+            {
+                "class": "test_plugin.protocols.my_protocol:Protocol",
+                "description": "Logs patient FHIR data when a new patient is created",
+                "data_access": {
+                    "event": "PATIENT_CREATED",
+                    "read": [
+                        "patients"
+                    ],
+                    "write": []
+                }
+            }
+        ],
+        "commands": [],
+        "content": [],
+        "effects": [],
+        "views": []
+    },
+    "secrets": [],
+    "tags": {},
+    "references": [],
+    "license": "",
+    "diagram": false,
+    "readme": "./README.md"
+}
