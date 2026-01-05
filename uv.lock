@@ -1218,11 +1218,11 @@ wheels = [
 
 [[package]]
 name = "pylogbeat"
-version = "2.0.1"
+version = "2.1.0"
 source = { registry = "https://pypi.org/simple/" }
-sdist = { url = "https://files.pythonhosted.org/packages/ac/3d/310e231cbe5137a0393bf91fb1c0515c5ebb9b17d891e7f31d53e8c4bfa6/pylogbeat-2.0.1.tar.gz", hash = "sha256:c483f0002b896f487299467ae88f8da5d4dde2de22abee2ad4cc66ec89108645", size = 11317, upload-time = "2023-07-30T14:28:53.193Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b7/41/1daad4fd3820e92365db6f0e867d6e7cf3dc2dc96fc2acf8db479282b310/pylogbeat-2.1.0.tar.gz", hash = "sha256:c2c030050c9f312249500df63a1d651bbe6d9c5df54f70fc434115ef29d51638", size = 11577, upload-time = "2025-11-23T15:57:21.11Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/06/b7/d7a6745273918fc992dbcc992461a7e969b1d0fa8330eb93f89e83afc009/pylogbeat-2.0.1-py2.py3-none-any.whl", hash = "sha256:516736167aa2dfe122d6c5fae889863fb49d23499215427c172dbbb2b211fa09", size = 10919, upload-time = "2023-07-30T14:28:51.834Z" },
+    { url = "https://files.pythonhosted.org/packages/78/f4/c32538a51ac43aa002bf27a97f18b6ce56fc5aac88edbe745f5c7a95a6ab/pylogbeat-2.1.0-py2.py3-none-any.whl", hash = "sha256:2f691db42d428decbee54cf0d5ac0209314404298deefff70591e6b25388afbc", size = 11216, upload-time = "2025-11-23T15:57:19.778Z" },
 ]
 
 [[package]]
@@ -1342,16 +1342,16 @@ wheels = [
 
 [[package]]
 name = "python-logstash-async"
-version = "4.0.2"
+version = "4.1.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "limits" },
     { name = "pylogbeat" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/80/2b/77bebd3179d926bcae5d6d6cf10b576b3956285b8006a5f4a2b8cf56b2c9/python_logstash_async-4.0.2.tar.gz", hash = "sha256:78be21c6f1a0ab0c0f274799ffa457292db5f087ea8823544057bc8aba1527a2", size = 37635, upload-time = "2025-03-16T12:15:07.893Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a2/7f/18db482559941479f322b4a526ecf7ccd90705f01dea12a2930a434b3123/python_logstash_async-4.1.0.tar.gz", hash = "sha256:05c8647a147d2e6b39aa8f0d95ba461030e646af0d15ff2d19a5d802346cb1dc", size = 38135, upload-time = "2025-11-23T16:22:59.586Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/da/4a/9fd32c520d44398aeb78e4c042294a91e5851205a6c6cbcba4bd224c3db0/python_logstash_async-4.0.2-py2.py3-none-any.whl", hash = "sha256:4353f7f21274f4d5637be82a6c90ba0766ca86ba1d9c5582862c57ec7aa1c313", size = 24865, upload-time = "2025-03-16T12:15:06.455Z" },
+    { url = "https://files.pythonhosted.org/packages/74/40/1910bfe3bec0def5f289844a76e901b38f0526a1c34450c5f813bf501269/python_logstash_async-4.1.0-py2.py3-none-any.whl", hash = "sha256:3fdeaac5b067a4a7d60c35d0d0b077483607e39c5c29d887775a0d213442cd9b", size = 25183, upload-time = "2025-11-23T16:22:58.059Z" },
 ]
 
 [[package]]
