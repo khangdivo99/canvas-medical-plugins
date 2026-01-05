@@ -1,0 +1,17 @@
+[project]
+authors = [
+  {email = "engineering@canvasmedical.com", name = "Canvas Team"}
+]
+dependencies = [
+  "canvas[test-utils]"
+]
+description = "Advanced patient care coordination plugin that analyzes clinical data across multiple FHIR resources and creates intelligent care coordination tasks"
+license = "MIT"
+name = "patient-onboarding-assistant"
+readme = "patient_onboarding_assistant/README.md"
+requires-python = ">=3.11,<3.13"
+version = "0.2.0"
+
+[tool.pytest.ini_options]
+python_files = ["*_tests.py", "test_*.py", "tests.py"]
+
