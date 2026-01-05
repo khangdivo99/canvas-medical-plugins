@@ -176,7 +176,7 @@ dev = [
     { name = "mypy", specifier = ">=1.17.0,<2" },
     { name = "pre-commit", specifier = ">=4.3.0,<5" },
     { name = "psutil", specifier = ">=7.0.0" },
-    { name = "pytest", specifier = ">=8.4,<9" },
+    { name = "pytest", specifier = ">=8.4,<10" },
     { name = "pytest-cov" },
     { name = "pytest-django", specifier = ">=4.11,<5" },
     { name = "pytest-freezegun", specifier = ">=0.4.2" },
